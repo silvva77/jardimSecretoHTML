@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, serif;
+  background-color: #f5f0eb;
+  color: #2d2d2d;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 40px;
+  background-color: #294f10;
+  color: white;
+}
+
+.nav-logo {
+  font-size: 100px;
+}
+
+.nav-links {
+  list-style: none;
+  display: block;
+  gap: 32px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.hero img{
+  height: 300px ;
+  width: 200% ;
+}
+.populares{
+  font-size: 30px;
+  margin-top: 40px;
+}
+.populares img{
+  width: 150px;
+  height: auto;
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+.fileira1 {display: flex;
+  justify-content: space-between;}
+
+.fileira2 {display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.frase{
+text-align: center ;
+font-size: 50px ;
+}
+
+.footer {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background-color: #1a3009;
+  color: #c8d8b0;
+  padding: 40px 10px;
+  font-size: 14px;
+  width: 100% ;
+  
+}
+
+.footer-logo {
+  font-size: 24px;
+}
